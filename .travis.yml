@@ -6,5 +6,5 @@ services:
   - docker
 
 after_success:
-  - docker build -t sem .
-  - docker run sem
+  - docker build -t se_methods "C:\Users\Usere\IdeaProjects\seMethods"
+  - docker run se_methods
